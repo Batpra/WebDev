@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+    <style>
+        body {
+            text-align: center; /* Center the contents horizontally */
+        }
+
+        #table-container {
+            display: inline-block; /* Center block element */
+            text-align: left; /* Reset text alignment for table */
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 700px;
+            margin: 0 auto; /* Center the table horizontally */
+        }
+
+        th, td {
+            border: none; /* Remove borders from table cells */
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: green;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+    <div id="table-container">
+        <table>
+            <tr>
+                <th>Company</th>
+                <th>Contact</th>
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td>Google</td>
+                <td>Prabhave</td>
+                <td>India</td>
+            </tr>
+            <tr>
+                <td>Facebook</td>
+                <td>CD</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td>Jio</td>
+                <td>Ravindra</td>
+                <td>India</td>
+            </tr>
+            <tr>
+                <td>Amazon</td>
+                <td>Pavan</td>
+                <td>UK</td>
+            </tr>
+            <tr>
+                <td>Reliance Retail</td>
+                <td>Jyothi</td>
+                <td>India</td>
+            </tr>
+            <tr>
+                <td>Rolex</td>
+                <td>Venkata</td>
+                <td>Germany</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

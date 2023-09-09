@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Styled Page</title>
+    <style>
+        /* Body Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            margin: 0;
+            padding: 0;
+            color: red; /* Set text color to red */
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #333;
+            color: red;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Main Content Styles */
+        .content {
+            display: flex;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: black; /* Set background color to black */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Sidebar Styles */
+        .sidebar {
+            width: 200px;
+            background-color: black; /* Set background color to black */
+            padding: 20px;
+        }
+
+        .sidebar a {
+            display: block;
+            color: black; /* Set text color to black */
+            background-color: red; /* Set button background color to red */
+            text-decoration: none;
+            margin-bottom: 10px;
+            padding: 10px; /* Add padding to buttons for spacing */
+            text-align: center; /* Center text horizontally in buttons */
+            border-radius: 20px;
+            transition: transform 0.2s ease-in-out; /* Add a smooth transition effect */
+        }
+
+        .sidebar a:hover {
+            text-decoration: none; /* Remove underline on hover */
+            transform: scale(1.1); /* Increase size on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My first styled WebPage</h1>
+    </header>
+
+    <div class="content">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <a href="#">Gotham</a>
+            <a href="#">Batman</a>
+            <a href="#">Justice League</a>
+            <a href="#">Alfred</a>
+        </div>
+
+        <!-- Main Content -->
+        <div>
+            <p>Welcome to my styled page</p>
+            <p>It will soon be converted into a Batman website</p>
+            <p>More to come in here....</p>
+            <p>___________________________________________________________________________</p>
+            <p>Made on 2-September-2023</p>
+            <p>By BatPra</p>
+        </div>
+    </div>
+</body>
+</html>

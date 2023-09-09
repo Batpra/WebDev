@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Reset default styles */
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        /* Style for the side navigation */
+        .sidenav {
+            height: 100%;
+            width: 250px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: white;
+            overflow-x: hidden;
+            transition: 0.3s;
+        }
+
+        /* Style for the links in the side navigation */
+        .sidenav a {
+            padding: 10px 10px; /* Decreased button size */
+            width: 60px;
+            text-decoration: none;
+            font-size: 16px; /* Decreased font size */
+            color: black;
+            display: block;
+            transition: 0.2s;
+            margin-bottom: 10px;
+            border-radius: 5px; /* Added border radius for rounded edges */
+        }
+
+        /* Style individual buttons */
+        .sidenav a:nth-child(1) {
+            background-color: #ff5733; /* Button 1 color */
+        }
+
+        .sidenav a:nth-child(2) {
+            background-color: #33ff57; /* Button 2 color */
+        }
+
+        .sidenav a:nth-child(3) {
+            background-color: #5733ff; /* Button 3 color */
+        }
+
+        .sidenav a:nth-child(4) {
+            background-color: #ffff33; /* Button 4 color */
+        }
+
+        /* Add this rule to increase button size on hover */
+        .sidenav a:hover {
+            width: 80px; /* Increase the width on hover */
+            padding: 10px 20px; /* Increase the padding on hover */
+            background-color: #555;
+        }
+
+        /* Show the side navigation when the user hovers over it */
+        .sidenav:hover {
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="sidenav">
+    <a href="https://www.instagram.com/">Button 1</a>
+    <a href="#">Button 2</a>
+    <a href="#">Button 3</a>
+    <a href="#">Button 4</a>
+</div>
+
+</body>
+</html>
