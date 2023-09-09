@@ -19,10 +19,6 @@ This consists of app development stuff I did while playing around.
                 <th>Link</th>
             </tr>
             <tr>
-                <td>Task1</td>
-                <td><a href="./task1.html">Link1</a></td>
-            </tr>
-            <tr>
                 <td>Task2</td>
                 <td><a href="./task2.html">Link2</a></td>
             </tr>
